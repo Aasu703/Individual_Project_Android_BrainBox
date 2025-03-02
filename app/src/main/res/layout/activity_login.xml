@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
+    android:id="@+id/main"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -40,7 +41,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/ic_user"
+                android:src="@drawable/baseline_account_circle_24"
                 android:tint="#5B57D6"
                 android:layout_gravity="center" />
 
@@ -70,7 +71,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/ic_lock"
+                android:src="@drawable/baseline_adjust_24"
                 android:tint="#5B57D6"
                 android:layout_gravity="center" />
 
@@ -95,7 +96,6 @@
             android:layout_height="wrap_content"
             android:text="LOGIN"
             android:layout_marginTop="24dp"
-            android:backgroundTint="#5B57D6"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:padding="12dp"
